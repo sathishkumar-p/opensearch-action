@@ -1,6 +1,6 @@
 import {HttpClient, HttpClientResponse} from '@actions/http-client'
 
-const githubAPIUrl = 'https://api.github.com'
+const githubAPIUrl = 'https://https://git.i.mercedes-benz.com/api/v3'
 
 export interface Job {
   id: number

@@ -26,7 +26,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.fetchLogs = exports.fetchJobs = exports.getClient = void 0;
 const http_client_1 = __nccwpck_require__(9925);
-const githubAPIUrl = "https://api.github.com";
+const githubAPIUrl = "https://https://git.i.mercedes-benz.com/api/v3";
 function getClient(ghToken) {
     return new http_client_1.HttpClient("gh-http-client", [], {
         headers: {
@@ -1325,7 +1325,7 @@ var MediaTypes;
 })(MediaTypes = exports.MediaTypes || (exports.MediaTypes = {}));
 /**
  * Returns the proxy URL, depending upon the supplied url and proxy environment variables.
- * @param serverUrl  The server URL where the request will be sent. For example, https://api.github.com
+ * @param serverUrl  The server URL where the request will be sent. For example, https://https://git.i.mercedes-benz.com/api/v3
  */
 function getProxyUrl(serverUrl) {
     const proxyUrl = pm.getProxyUrl(new URL(serverUrl));
@@ -1672,7 +1672,7 @@ class HttpClient {
     /**
      * Gets an http agent. This function is useful when you need an http agent that handles
      * routing through a proxy server - depending upon the url and proxy environment variables.
-     * @param serverUrl  The server URL where the request will be sent. For example, https://api.github.com
+     * @param serverUrl  The server URL where the request will be sent. For example, https://https://git.i.mercedes-benz.com/api/v3
      */
     getAgent(serverUrl) {
         const parsedUrl = new URL(serverUrl);
@@ -1975,7 +1975,7 @@ var MediaTypes;
 })(MediaTypes = exports.MediaTypes || (exports.MediaTypes = {}));
 /**
  * Returns the proxy URL, depending upon the supplied url and proxy environment variables.
- * @param serverUrl  The server URL where the request will be sent. For example, https://api.github.com
+ * @param serverUrl  The server URL where the request will be sent. For example, https://https://git.i.mercedes-benz.com/api/v3
  */
 function getProxyUrl(serverUrl) {
     let proxyUrl = pm.getProxyUrl(new URL(serverUrl));
@@ -2281,7 +2281,7 @@ class HttpClient {
     /**
      * Gets an http agent. This function is useful when you need an http agent that handles
      * routing through a proxy server - depending upon the url and proxy environment variables.
-     * @param serverUrl  The server URL where the request will be sent. For example, https://api.github.com
+     * @param serverUrl  The server URL where the request will be sent. For example, https://https://git.i.mercedes-benz.com/api/v3
      */
     getAgent(serverUrl) {
         let parsedUrl = new URL(serverUrl);

@@ -45,7 +45,7 @@ describe('Test jobs list retrieval', () => {
     // also verify the url used in the HTTP request (first param passed to get)
     const url = capture(mockedHttpClient.get).last()[0]
     expect(url).toEqual(
-      'https://api.github.com/repos/masci/foo/actions/runs/123/jobs'
+      'https://https://git.i.mercedes-benz.com/api/v3/repos/masci/foo/actions/runs/123/jobs'
     )
   })
 
